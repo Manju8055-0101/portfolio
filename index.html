@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio - Product Manager | Developer | Designer">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">PORTFOLIO</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About Me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#certifications" class="nav__link">Certifications</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__social">
+                <a href="https://instagram.com" target="_blank" class="nav__social-link" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="nav__social-link" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="nav__social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com" target="_blank" class="nav__social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <p class="hero__greeting">HI, I'M MANJUNATH B</p>
+                    <h3 class="hero__title">I'M A<br>CYBER SECURITY SPECIALIST & ASPIRING ETHICAL HACKER</h3>
+                    <div class="hero__buttons">
+                        <a href="#projects" class="btn btn--outline">
+                            <span>VIEW MY PROJECTS</span>
+                        </a>
+                        <a href="#projects" class="btn btn--primary">
+                            <span>Portfolio</span>
+                            <i class="fas fa-folder-open"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero__image-wrapper">
+                    <div class="hero__image-container">
+                        <img src="me.png" 
+                             alt="Professional Portrait" 
+                             class="hero__image">
+                        <div class="hero__image-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__subtitle">About Me</span>
+                    <h2 class="section__title">Professional Journey</h2>
+                </div>
+                <div class="about__content">
+                    <div class="about__text">
+                        <p class="about__description">
+                            I am currently pursuing my Master of Computer Applications (MCA) at Kristu Jayanti Deemed to be University. Alongside my academic journey, I have gained six months of professional experience at LYD Technologies, where I worked as a Cybersecurity Analyst. In this role, I was involved in configuring firewalls and routers, managing website hosting, and developing websites using WordPress.
+                        </p>
+                        <p class="about__description">
+                            During my tenure at LYD Technologies, I also contributed to building a project named AlgoLyd, a stock market prediction system designed to analyze market trends and support data-driven decision-making.
+
+                            I possess a strong technical foundation in AI tools, cybersecurity, basic web design, and Kali Linux. With a growing passion for offensive security, I am an aspiring ethical hacker, continuously enhancing my skills to understand real-world security challenges and build secure systems.
+                        </p>
+                    </div>
+                    <div class="about__skills">
+                        <h3 class="about__skills-title">Core Competencies</h3>
+                        <div class="skills__grid">
+                            <div class="skill__item">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Cyber security</span>
+                            </div>
+                            <div class="skill__item">
+                                <i class="fas fa-code"></i>
+                                <span>Full-Stack Development</span>
+                            </div>
+                            <div class="skill__item">
+                                <i class="fas fa-palette"></i>
+                                <span>UI/UX Design</span>
+                            </div>
+                            <div class="skill__item">
+                                <i class="fas fa-users"></i>
+                                <span>Team Leadership</span>
+                            </div>
+                            <div class="skill__item">
+                                <i class="fas fa-database"></i>
+                                <span>Ethical Hack</span>
+                            </div>
+                            <!-- <div class="skill__item">
+                                <i class="fas fa-rocket"></i>
+                                <span>Agile Methodology</span>
+                            </div> -->
+                        </div>
+                        <h3 class="about__skills-title">Technologies</h3>
+                        <div class="tech__tags">
+                            <span class="tech__tag">React</span>
+                            <!-- <span class="tech__tag">TypeScript</span> -->
+                            <!-- <span class="tech__tag">Node.js</span> -->
+                            <span class="tech__tag">Python</span>
+                            <span class="tech__tag">Figma</span>
+                            <span class="tech__tag">WordPress</span>
+                            <span class="tech__tag">AWS</span>
+                            <span class="tech__tag">MySQL</span>
+                            <span class="tech__tag">Docker</span>
+                            <span class="tech__tag">Burp Suite</span>
+                            <span class="tech__tag">Nmap</span>
+                            <span class="tech__tag">Metasploit</span>
+                            <span class="tech__tag">Kali Linux</span>
+                            <!-- <span class="tech__tag">Wireshark</span> -->
+                            <span class="tech__tag">Nmap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Self Reflection Section -->
+        <section class="reflection section" id="reflection">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__subtitle">Personal Profile</span>
+                    <h2 class="section__title">Self Reflection</h2>
+                </div>
+                <div class="reflection__grid">
+                    <div class="reflection__card">
+                        <div class="reflection__icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="reflection__title">Strengths</h3>
+                        <ul class="reflection__list">
+                            <li>Strong analytical and problem-solving skills in cybersecurity</li>
+                            <li>Quick learner with hands-on experience in tools like Burp Suite, Nmap, Kali Linux</li>
+                            <li>Effective communicator and team collaborator</li>
+                        </ul>
+                    </div>
+                    <div class="reflection__card">
+                        <div class="reflection__icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h3 class="reflection__title">Weaknesses</h3>
+                        <ul class="reflection__list">
+                            <li>Still building depth in advanced penetration testing methodologies</li>
+                            <li>Working on presenting complex technical concepts to non-technical stakeholders</li>
+                        </ul>
+                    </div>
+                    <div class="reflection__card">
+                        <div class="reflection__icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3 class="reflection__title">Career Values</h3>
+                        <ul class="reflection__list">
+                            <li><strong>Growth & Learning:</strong> Continuously upskilling in security and ethical hacking</li>
+                            <li><strong>Teamwork:</strong> Thrive in collaborative, cross-functional environments</li>
+                            <li><strong>Ethics:</strong> Committed to responsible disclosure and secure-by-design practices</li>
+                        </ul>
+                    </div>
+                    <div class="reflection__card">
+                        <div class="reflection__icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h3 class="reflection__title">Personality Reflection</h3>
+                        <p class="reflection__text">
+                            Analytical and detail-oriented with a strong focus on security and integrity. I work well both independently and in teams, and I am driven by curiosity and a desire to build secure systems.
+                        </p>
+                    </div>
+                    <div class="reflection__card">
+                        <div class="reflection__icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="reflection__title">One Habit to Improve</h3>
+                        <p class="reflection__text">
+                            <strong>Time Management & Prioritization:</strong> Actively improving my ability to balance multiple tasks, set clear priorities, and deliver consistently under deadlines before entering the industry.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__subtitle">Projects</span>
+                    <h2 class="section__title">Featured Projects</h2>
+                </div>
+                <div class="projects__grid">
+                    <div class="project__card">
+                        <div class="project__image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop" 
+                                 alt="Image Crypto Project" 
+                                 class="project__image">
+                            <div class="project__overlay">
+                                <div class="project__link" aria-label="View Project">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Image-Crypto</h3>
+                            <p class="project__description">
+                                A secure image encryption and decryption system that protects sensitive visual data
+                                using modern cryptographic algorithms and an intuitive web interface.
+                            </p>
+                            <div class="project__tags">
+                                <span class="project__tag">Python</span>
+                                <span class="project__tag">Cryptography</span>
+                                <span class="project__tag">Flask</span>
+                                <span class="project__tag">html</span>
+                                <span class="project__tag">css</span>
+                                <span class="project__tag">javascript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project__card">
+                        <div class="project__image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop" 
+                                 alt="Cybercrime Awareness Portal" 
+                                 class="project__image">
+                            <div class="project__overlay">
+                                <div class="project__link" aria-label="View Project">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Cybercrime-Awareness Portal</h3>
+                            <p class="project__description">
+                                An educational portal that spreads awareness about common cybercrimes, best security
+                                practices, and real-world case studies to help users stay safe online.
+                            </p>
+                            <div class="project__tags">
+                                <span class="project__tag">HTML</span>
+                                <span class="project__tag">CSS</span>
+                                <span class="project__tag">JavaScript</span>
+                                <span class="project__tag">tailwind css</span>
+                                <span class="project__tag">bootstrap</span>
+                                <span class="project__tag">django</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project__card">
+                        <div class="project__image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop" 
+                                 alt="College Voting System" 
+                                 class="project__image">
+                            <div class="project__overlay">
+                                <div class="project__link" aria-label="View Project">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">College-Voting-System</h3>
+                            <p class="project__description">
+                                A secure online voting platform designed for college elections with role-based access,
+                                encrypted ballots, and real-time result visualization.
+                            </p>
+                            <div class="project__tags">
+                                <span class="project__tag">.net framework</span>
+                                <span class="project__tag">MySQL</span>
+                                <span class="project__tag">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="certifications section" id="certifications">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__subtitle">Credentials</span>
+                    <h2 class="section__title">Certifications & Achievements</h2>
+                </div>
+                <div class="certifications__container">
+                    <div class="certification__card">
+                        <div class="certification__icon">
+                            <i class="fab fa-google"></i>
+                        </div>
+                        <div class="certification__content">
+                            <h3 class="certification__title">CCST Certified Security Tester</h3>
+                            <p class="certification__org">CISCO</p>
+                            <span class="certification__year">
+                                SEPTEMBER 30, 2025<br>
+                                CJ8z-Dkxa
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="certification__card">
+                        <div class="certification__icon">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <div class="certification__content">
+                            <h3 class="certification__title">Cybersecurity Fundamentals</h3>
+                            <p class="certification__org">IBM SkillsBuild</p>
+                            <span class="certification__year">MARCH 21, 2025</span>
+                        </div>
+                    </div>
+
+                    <div class="certification__card">
+                        <div class="certification__icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certification__content">
+                            <h3 class="certification__title">Artificial Intelligence fundamentals</h3>
+                            <p class="certification__org">IBM SkillsBuild</p>
+                            <span class="certification__year">MARCH 21, 2025</span>
+                        </div>
+                    </div>
+
+                    <div class="certification__card">
+                        <div class="certification__icon">
+                            <i class="fab fa-microsoft"></i>
+                        </div>
+                        <div class="certification__content">
+                            <h3 class="certification__title">Cyber Awareness AI basics</h3>
+                            <p class="certification__org">CISCO</p>
+                            <span class="certification__year">NOV-2025<br>
+                            26P0722820011345964</span>
+                        </div>
+                    </div>
+
+                    <div class="certification__card">
+                        <div class="certification__icon">
+                            <i class="fas fa-scroll"></i>
+                        </div>
+                        <div class="certification__content">
+                            <h3 class="certification__title">cyber security based application</h3>
+                            <p class="certification__org">plasmid</p>
+                            <span class="certification__year">JAN-2025<br>
+                            1124CCYB5758</span>
+                        </div>
+                    </div>
+
+                    <div class="certification__card">
+                        <div class="certification__icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="certification__content">
+                            <h3 class="certification__title">introduction to agile</h3>
+                            <p class="certification__org">simplilearn|SkillUP</p>
+                            <span class="certification__year">13-jan-2026<br>
+                            9713777</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__subtitle">Get In Touch</span>
+                    <h2 class="section__title">Let's Work Together</h2>
+                </div>
+                <div class="contact__container">
+                    <div class="contact__info">
+                        <p class="contact__description">
+                            I am passionate about building secure, innovative, and scalable tech solutions in fields like application security, web development, and analytics. If you'd like to collaborate on cybersecurity projects, technology initiatives, or need an enthusiastic problem solver for your next challenge, feel free to connect with me through this form or via my social channels below.
+                        </p>
+                        <div class="contact__social">
+                            <a href="https://www.instagram.com/manjunath_b_raja" target="_blank" class="contact__social-link" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" class="contact__social-link" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/manjunath-b-9351ab29a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="contact__social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/Manju8055-0101" target="_blank" class="contact__social-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contact__form" id="contact-form">
+                        <div class="form__group">
+                            <input type="text" name="name" class="form__input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="email" name="email" class="form__input" placeholder="Your Email" required>
+                        </div>
+                        <div class="form__group">
+                            <textarea name="message" class="form__input form__textarea" rows="6" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p class="footer__copyright">
+                    &copy; 2026 <span>Manjunath B</span>. All rights reserved.
+                </p>
+                <div class="footer__social">
+                    <a href="https://www.instagram.com/manjunath_b_raja" target="_blank" class="footer__social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="footer__social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/manjunath-b-9351ab29a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="footer__social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Manju8055-0101" target="_blank" class="footer__social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <a href="#home" class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
